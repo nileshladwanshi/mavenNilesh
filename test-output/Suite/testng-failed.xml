@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="coverfoxListener.Listener"/>
+    <listener class-name="coverfoxListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="NEWTestNG(failed)">
+    <classes>
+      <class name="coverfoxTest.sorValida">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="sortCheck"/>
+        </methods>
+      </class> <!-- coverfoxTest.sorValida -->
+    </classes>
+  </test> <!-- NEWTestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
