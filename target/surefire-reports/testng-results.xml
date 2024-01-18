@@ -77,19 +77,19 @@
       <![CDATA[ TC validatingTC is completed succesfull]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-17T10:29:01 IST" name="Suite" finished-at="2024-01-17T10:30:46 IST" duration-ms="105204">
+  <suite started-at="2024-01-18T10:22:12 IST" name="Suite" finished-at="2024-01-18T10:23:30 IST" duration-ms="78432">
     <groups>
     </groups>
-    <test started-at="2024-01-17T10:29:01 IST" name="NEWTestNG" finished-at="2024-01-17T10:30:46 IST" duration-ms="105204">
+    <test started-at="2024-01-18T10:22:12 IST" name="NEWTestNG" finished-at="2024-01-18T10:23:30 IST" duration-ms="78432">
       <class name="coverfoxTest.sorValida">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverfoxTest.sorValida@3febb011]" started-at="2024-01-17T10:29:01 IST" name="launchBrowser" finished-at="2024-01-17T10:29:32 IST" duration-ms="30981" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverfoxTest.sorValida@e350b40]" started-at="2024-01-18T10:22:12 IST" name="launchBrowser" finished-at="2024-01-18T10:22:27 IST" duration-ms="14629" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:coverfoxTest.sorValida@3febb011]" started-at="2024-01-17T10:29:32 IST" name="beforeMethod" finished-at="2024-01-17T10:29:49 IST" duration-ms="17294" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:coverfoxTest.sorValida@e350b40]" started-at="2024-01-18T10:22:27 IST" name="beforeMethod" finished-at="2024-01-18T10:22:44 IST" duration-ms="16866" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on next button]]>
@@ -111,7 +111,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sortCheck()[pri:0, instance:coverfoxTest.sorValida@3febb011]" started-at="2024-01-17T10:29:49 IST" name="sortCheck" finished-at="2024-01-17T10:29:52 IST" duration-ms="3115" status="PASS">
+        <test-method signature="sortCheck()[pri:0, instance:coverfoxTest.sorValida@e350b40]" started-at="2024-01-18T10:22:44 IST" name="sortCheck" finished-at="2024-01-18T10:22:47 IST" duration-ms="3127" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ TC sortCheck execution is started]]>
@@ -132,14 +132,14 @@
         </test-method> <!-- sortCheck -->
       </class> <!-- coverfoxTest.sorValida -->
       <class name="coverfoxTest.MainTestCoverfox">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverfoxTest.MainTestCoverfox@1623b78d]" started-at="2024-01-17T10:29:52 IST" name="launchBrowser" finished-at="2024-01-17T10:30:04 IST" duration-ms="12366" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverfoxTest.MainTestCoverfox@60099951]" started-at="2024-01-18T10:22:47 IST" name="launchBrowser" finished-at="2024-01-18T10:22:53 IST" duration-ms="6537" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:coverfoxTest.MainTestCoverfox@1623b78d]" started-at="2024-01-17T10:30:04 IST" name="beforeMethod" finished-at="2024-01-17T10:30:21 IST" duration-ms="16370" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:coverfoxTest.MainTestCoverfox@60099951]" started-at="2024-01-18T10:22:53 IST" name="beforeMethod" finished-at="2024-01-18T10:23:10 IST" duration-ms="16683" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on next button]]>
@@ -161,7 +161,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validatingTC()[pri:0, instance:coverfoxTest.MainTestCoverfox@1623b78d]" started-at="2024-01-17T10:30:21 IST" name="validatingTC" finished-at="2024-01-17T10:30:46 IST" duration-ms="25023" status="PASS">
+        <test-method signature="validatingTC()[pri:0, instance:coverfoxTest.MainTestCoverfox@60099951]" started-at="2024-01-18T10:23:10 IST" name="validatingTC" finished-at="2024-01-18T10:23:30 IST" duration-ms="20511" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ TC validatingTC execution is started]]>
