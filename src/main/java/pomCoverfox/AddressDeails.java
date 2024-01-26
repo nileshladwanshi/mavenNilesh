@@ -28,9 +28,10 @@ public class AddressDeails
 //		mobileNumField.sendKeys("9130908801");						
 //	}
 	
-	public void enterPincode(String pin)
+	public void enterPincode(String pin) throws InterruptedException
 	{
 		pincodeEnter.sendKeys(pin);
+		Thread.sleep(500);
 	}
 
 	public void enterMobileNum(String mobileNum)

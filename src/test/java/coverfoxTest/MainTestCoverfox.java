@@ -49,7 +49,7 @@ public class MainTestCoverfox {
 		ChromeOptions opt=new ChromeOptions();
 		opt.addArguments("--disable-notifications");
 		
-		WebDriver driver = new ChromeDriver(opt); 
+		 driver = new ChromeDriver(opt); 
 		home =new coveFoxHome(driver);
 		healthPage = new CoverFoxHealhPage(driver);
 		adress =new AddressDeails(driver);
@@ -106,8 +106,9 @@ public class MainTestCoverfox {
 	  
 	  
 	  Thread.sleep(4500);
-	  WebDriver driver = new ChromeDriver() ;
+	  // driver = new ChromeDriver() ;
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+	 
 	  Reporter.log("fetching number of result from text", true);
 	  int textResult=healthPlan.textResult1();
 	  Thread.sleep(5000);

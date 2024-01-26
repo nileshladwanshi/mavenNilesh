@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coverfoxTest.MainTestCoverfo">
+      <class name="coverfoxTest.MainTestCoverfox">
         <methods>
-          <include name="beforeMethod"/>
           <include name="launchBrowser"/>
           <include name="validatingTC"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- coverfoxTest.MainTestCoverfo -->
+      </class> <!-- coverfoxTest.MainTestCoverfox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
